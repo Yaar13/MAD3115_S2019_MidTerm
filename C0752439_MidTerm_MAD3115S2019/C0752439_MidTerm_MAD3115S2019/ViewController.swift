@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Txtusername: UITextField!
+    @IBOutlet weak var TxtPassword: UITextField!
+    @IBAction func BtnLogin(_ sender: UIButton) {
+    }
+    @IBOutlet weak var Switch: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+
     }
-
-
 }
 
