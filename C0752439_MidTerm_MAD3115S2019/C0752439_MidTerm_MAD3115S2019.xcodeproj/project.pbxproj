@@ -14,7 +14,13 @@
 		5E33CC6422D7F13300A311EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6222D7F13300A311EF /* LaunchScreen.storyboard */; };
 		5E33CC6C22D7F34D00A311EF /* Parag_Launch_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */; };
 		5E33CC7322D800F100A311EF /* Userinfo.Plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC7222D800F100A311EF /* Userinfo.Plist */; };
+		5E34F00622D8353200D81B95 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00522D8353200D81B95 /* Bill.swift */; };
+		5E34F00822D8354B00D81B95 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00722D8354B00D81B95 /* Customer.swift */; };
+		5E34F00A22D8355900D81B95 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00922D8355900D81B95 /* Hydro.swift */; };
+		5E34F00C22D8356700D81B95 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00B22D8356700D81B95 /* Internet.swift */; };
+		5E34F00E22D8357C00D81B95 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00D22D8357C00D81B95 /* Mobile.swift */; };
 		5ED0AA3122D80D1000B41EA7 /* ShowbillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */; };
+		5ED0AA3722D81D8100B41EA7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0AA3622D81D8100B41EA7 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +33,13 @@
 		5E33CC6522D7F13300A311EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Parag_Launch_Screen.storyboard; sourceTree = "<group>"; };
 		5E33CC7222D800F100A311EF /* Userinfo.Plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Userinfo.Plist; sourceTree = "<group>"; };
+		5E34F00522D8353200D81B95 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		5E34F00722D8354B00D81B95 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		5E34F00922D8355900D81B95 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		5E34F00B22D8356700D81B95 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		5E34F00D22D8357C00D81B95 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowbillViewController.swift; sourceTree = "<group>"; };
+		5ED0AA3622D81D8100B41EA7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +73,13 @@
 			isa = PBXGroup;
 			children = (
 				5E33CC5922D7F13200A311EF /* AppDelegate.swift */,
+				5ED0AA3622D81D8100B41EA7 /* UserData.swift */,
 				5E33CC5B22D7F13200A311EF /* ViewController.swift */,
+				5E34F00B22D8356700D81B95 /* Internet.swift */,
+				5E34F00D22D8357C00D81B95 /* Mobile.swift */,
+				5E34F00922D8355900D81B95 /* Hydro.swift */,
+				5E34F00722D8354B00D81B95 /* Customer.swift */,
+				5E34F00522D8353200D81B95 /* Bill.swift */,
 				5E33CC5D22D7F13200A311EF /* Main.storyboard */,
 				5E33CC6022D7F13300A311EF /* Assets.xcassets */,
 				5E33CC6222D7F13300A311EF /* LaunchScreen.storyboard */,
@@ -146,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E34F00E22D8357C00D81B95 /* Mobile.swift in Sources */,
+				5E34F00A22D8355900D81B95 /* Hydro.swift in Sources */,
 				5ED0AA3122D80D1000B41EA7 /* ShowbillViewController.swift in Sources */,
+				5E34F00C22D8356700D81B95 /* Internet.swift in Sources */,
+				5E34F00622D8353200D81B95 /* Bill.swift in Sources */,
 				5E33CC5C22D7F13200A311EF /* ViewController.swift in Sources */,
+				5E34F00822D8354B00D81B95 /* Customer.swift in Sources */,
+				5ED0AA3722D81D8100B41EA7 /* UserData.swift in Sources */,
 				5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
