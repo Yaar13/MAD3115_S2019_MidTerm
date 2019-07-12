@@ -7,17 +7,18 @@
 //
 
 import Foundation
-class Hydro: Bill {
-    var AgencyName: String?
-    var UnitsConsumed: String
-    init(BillId: Int,BillDate: Date,BillType:String,Aname: String, Uconsumed: String)
+
+class Hydro: Bill
+{
+    var agencyName: String
+    var unitconsumed: Int
+    
+    init(Id: Int, billDate: Date, billType: billTypes, totalBillAmount: Float, agencyName: String, unitconsumed: Int)
     {
-        self.AgencyName = Aname
-        self.UnitsConsumed = Uconsumed
-        super.init(BillId: BillId, BillDate: BillDate, BillType: Billtype)
-    }
-    override func display() {
-        print(self.AgencyName!,self.UnitsConsumed)
+        self.agencyName = agencyName
+        self.unitconsumed = unitconsumed
         
+        super.init(Id: Id, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
+    
 }
