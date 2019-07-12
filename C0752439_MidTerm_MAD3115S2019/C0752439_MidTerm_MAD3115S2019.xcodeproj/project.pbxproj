@@ -14,6 +14,7 @@
 		5E33CC6422D7F13300A311EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6222D7F13300A311EF /* LaunchScreen.storyboard */; };
 		5E33CC6C22D7F34D00A311EF /* Parag_Launch_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */; };
 		5E33CC7322D800F100A311EF /* Userinfo.Plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC7222D800F100A311EF /* Userinfo.Plist */; };
+		5ED0AA3122D80D1000B41EA7 /* ShowbillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5E33CC6522D7F13300A311EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Parag_Launch_Screen.storyboard; sourceTree = "<group>"; };
 		5E33CC7222D800F100A311EF /* Userinfo.Plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Userinfo.Plist; sourceTree = "<group>"; };
+		5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowbillViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5E33CC6522D7F13300A311EF /* Info.plist */,
 				5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */,
 				5E33CC7222D800F100A311EF /* Userinfo.Plist */,
+				5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */,
 			);
 			path = C0752439_MidTerm_MAD3115S2019;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED0AA3122D80D1000B41EA7 /* ShowbillViewController.swift in Sources */,
 				5E33CC5C22D7F13200A311EF /* ViewController.swift in Sources */,
 				5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */,
 			);

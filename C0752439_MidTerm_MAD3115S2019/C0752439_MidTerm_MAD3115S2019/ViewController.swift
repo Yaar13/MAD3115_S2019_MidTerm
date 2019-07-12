@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var Txtusername: UITextField!
     @IBOutlet weak var TxtPassword: UITextField!
     @IBAction func BtnLogin(_ sender: UIButton) {
+         performSegue(withIdentifier: "segueElectricirtyBillScreen", sender: self)
+        
     }
     @IBOutlet weak var Switch: UISwitch!
     override func viewDidLoad() {
@@ -20,5 +22,11 @@ class ViewController: UIViewController {
     
 
     }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
 }
+
 
