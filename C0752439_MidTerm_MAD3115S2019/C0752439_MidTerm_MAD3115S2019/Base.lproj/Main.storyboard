@@ -42,7 +42,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="BtnLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ipF-f8-jiG"/>
-                                    <segue destination="i6S-h5-W6o" kind="show" id="405-l4-aul"/>
+                                    <segue destination="i6S-h5-W6o" kind="show" id="8iq-Pe-teW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remember ME?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKX-3M-Oaq">
@@ -72,7 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="44"/>
+            <point key="canvasLocation" x="261" y="-168"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="ehY-W7-4aF">
@@ -94,9 +94,6 @@
                                             <rect key="frame" x="13" y="3" width="48" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Logout"/>
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="P3j-Wm-Fhe"/>
-                                            </connections>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -110,37 +107,42 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kea-hi-OrF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="888" y="44"/>
+            <point key="canvasLocation" x="1242" y="-168"/>
         </scene>
-        <!--Bill Detail View Controller-->
-        <scene sceneID="jd0-mq-17i">
+        <!--View Controller-->
+        <scene sceneID="ONn-Qs-g65">
             <objects>
-                <viewController title="Bill Detail View Controller" id="H1a-BJ-0MN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pWh-zI-zbv">
+                <viewController storyboardIdentifier="homeVC" id="294-W9-uAw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VR9-eK-Gga">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZeM-AE-irm">
+                                <rect key="frame" x="71" y="278" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="XQD-R5-UyY" userLabel="users">
+                                        <rect key="frame" x="0.0" y="28" width="240" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XQD-R5-UyY" id="ZoT-LX-H7p">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Q1S-la-80J"/>
+                        <viewLayoutGuide key="safeArea" id="c9V-1A-PPb"/>
                     </view>
+                    <connections>
+                        <outlet property="userList" destination="ZeM-AE-irm" id="qua-Vl-c8Q"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="elX-Je-163" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37j-qY-wyr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="44"/>
-        </scene>
-        <!--New Bill View Controller-->
-        <scene sceneID="Nne-4H-Dc6">
-            <objects>
-                <viewController title="New Bill View Controller" id="3ag-Yk-fQM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="40c-GA-RoS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="tpr-Tg-j22"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uG8-ke-6CF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2779" y="46"/>
+            <point key="canvasLocation" x="2051" y="-168"/>
         </scene>
     </scenes>
     <resources>

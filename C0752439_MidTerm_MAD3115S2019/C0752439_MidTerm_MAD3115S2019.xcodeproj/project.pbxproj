@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E3281DE22D935FD00F7FF7A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3281DD22D935FD00F7FF7A /* Utility.swift */; };
-		5E3281E222D941E100F7FF7A /* BillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */; };
 		5E3281E422D947CC00F7FF7A /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E3281E322D947CC00F7FF7A /* Users.plist */; };
+		5E3281E622D94DBF00F7FF7A /* BillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3281E522D94DBF00F7FF7A /* BillListTableViewController.swift */; };
 		5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33CC5922D7F13200A311EF /* AppDelegate.swift */; };
 		5E33CC5C22D7F13200A311EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33CC5B22D7F13200A311EF /* ViewController.swift */; };
 		5E33CC5F22D7F13200A311EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC5D22D7F13200A311EF /* Main.storyboard */; };
@@ -28,8 +28,8 @@
 
 /* Begin PBXFileReference section */
 		5E3281DD22D935FD00F7FF7A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableViewController.swift; sourceTree = "<group>"; };
 		5E3281E322D947CC00F7FF7A /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
+		5E3281E522D94DBF00F7FF7A /* BillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableViewController.swift; sourceTree = "<group>"; };
 		5E33CC5622D7F13200A311EF /* C0752439_MidTerm_MAD3115S2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0752439_MidTerm_MAD3115S2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E33CC5922D7F13200A311EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E33CC5B22D7F13200A311EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 				5E33CC5922D7F13200A311EF /* AppDelegate.swift */,
 				5E34F01122D8386300D81B95 /* Idisplay.swift */,
 				5E33CC5B22D7F13200A311EF /* ViewController.swift */,
-				5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */,
 				5E34F00B22D8356700D81B95 /* Internet.swift */,
 				5E34F00F22D8366000D81B95 /* User.swift */,
+				5E3281E522D94DBF00F7FF7A /* BillListTableViewController.swift */,
 				5E34F00D22D8357C00D81B95 /* Mobile.swift */,
 				5E34F00922D8355900D81B95 /* Hydro.swift */,
 				5E3281E322D947CC00F7FF7A /* Users.plist */,
@@ -183,7 +183,7 @@
 				5E34F00822D8354B00D81B95 /* Customer.swift in Sources */,
 				5E3281DE22D935FD00F7FF7A /* Utility.swift in Sources */,
 				5E34F01022D8366000D81B95 /* User.swift in Sources */,
-				5E3281E222D941E100F7FF7A /* BillListTableViewController.swift in Sources */,
+				5E3281E622D94DBF00F7FF7A /* BillListTableViewController.swift in Sources */,
 				5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
