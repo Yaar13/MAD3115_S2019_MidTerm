@@ -7,31 +7,23 @@
 //
 
 import Foundation
-class Mobile: Bill {
-    var MobilemanufacturerName: String?
-    var PlanName: String?
-    var MobileNumber: Int?
-    var InternetGBUsed: String?
-    var MinutesUsed: String?
+class Mobile: Bill
+{
+    var mobileManufacturer: String
+    var planName: String
+    var mobileNumber: String
+    var internetUsed: Int
+    var minuteUsed: Int
     
-    init(Mname: String , PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
-        
+    init(Id: Int, billDate: Date, billType: billTypes, totalBillAmount: Float, mobileManufacturer: String, planName: String, mobileNumber: String, internetUsed: Int, minuteUsed: Int)
     {
-        self.MobilemanufacturerName = Mname
-        self.PlanName = PName
-        self.MobileNumber = Mnum
-        self.InternetGBUsed = IntUsed
-        self.MinutesUsed = MinUsed
+        self.mobileManufacturer = mobileManufacturer
+        self.planName = planName
+        self.mobileNumber = mobileNumber
+        self.internetUsed = internetUsed
+        self.minuteUsed = minuteUsed
         
-        super.init(bID:BillId! , bDate: BillDate, bType: Billtype!, TbillAmount: TotalBillAmount!)
-        
-    }
-    override func display() {
-        
-        print(self.MobilemanufacturerName!,self.PlanName!,self.MobileNumber!,self.InternetGBUsed as Any,self.MinutesUsed!)
-        
+        super.init(Id: Id, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
     }
     
 }
-
-

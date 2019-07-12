@@ -27,13 +27,6 @@ class User
         self.email = email
         self.password = password
     }
-    
-    static func addCustomer(customer : Customer)
-    {
-        customers.updateValue(customer, forKey: customer.customerid)
-        print("Added customer in User Class")
-    }
-    
     static func deleteCustomer(customerId : Int)
     {
         customers.removeValue(forKey: customerId)
