@@ -10,4 +10,3 @@ import Foundation
 protocol iDisplay {
     func printDetails()
 }
-
