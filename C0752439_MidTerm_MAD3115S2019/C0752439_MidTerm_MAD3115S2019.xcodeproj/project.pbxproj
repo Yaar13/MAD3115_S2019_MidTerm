@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5E3281DE22D935FD00F7FF7A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3281DD22D935FD00F7FF7A /* Utility.swift */; };
+		5E3281E222D941E100F7FF7A /* BillListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */; };
+		5E3281E422D947CC00F7FF7A /* Users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E3281E322D947CC00F7FF7A /* Users.plist */; };
 		5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33CC5922D7F13200A311EF /* AppDelegate.swift */; };
 		5E33CC5C22D7F13200A311EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33CC5B22D7F13200A311EF /* ViewController.swift */; };
 		5E33CC5F22D7F13200A311EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC5D22D7F13200A311EF /* Main.storyboard */; };
 		5E33CC6122D7F13300A311EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6022D7F13300A311EF /* Assets.xcassets */; };
 		5E33CC6422D7F13300A311EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6222D7F13300A311EF /* LaunchScreen.storyboard */; };
 		5E33CC6C22D7F34D00A311EF /* Parag_Launch_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */; };
-		5E33CC7322D800F100A311EF /* Userinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E33CC7222D800F100A311EF /* Userinfo.plist */; };
 		5E34F00622D8353200D81B95 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00522D8353200D81B95 /* Bill.swift */; };
 		5E34F00822D8354B00D81B95 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00722D8354B00D81B95 /* Customer.swift */; };
 		5E34F00A22D8355900D81B95 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E34F00922D8355900D81B95 /* Hydro.swift */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		5E3281DD22D935FD00F7FF7A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListTableViewController.swift; sourceTree = "<group>"; };
+		5E3281E322D947CC00F7FF7A /* Users.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Users.plist; sourceTree = "<group>"; };
 		5E33CC5622D7F13200A311EF /* C0752439_MidTerm_MAD3115S2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C0752439_MidTerm_MAD3115S2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E33CC5922D7F13200A311EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E33CC5B22D7F13200A311EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +38,6 @@
 		5E33CC6322D7F13300A311EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E33CC6522D7F13300A311EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Parag_Launch_Screen.storyboard; sourceTree = "<group>"; };
-		5E33CC7222D800F100A311EF /* Userinfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Userinfo.plist; sourceTree = "<group>"; };
 		5E34F00522D8353200D81B95 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		5E34F00722D8354B00D81B95 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		5E34F00922D8355900D81B95 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
@@ -79,10 +81,12 @@
 				5E33CC5922D7F13200A311EF /* AppDelegate.swift */,
 				5E34F01122D8386300D81B95 /* Idisplay.swift */,
 				5E33CC5B22D7F13200A311EF /* ViewController.swift */,
+				5E3281E122D941E100F7FF7A /* BillListTableViewController.swift */,
 				5E34F00B22D8356700D81B95 /* Internet.swift */,
 				5E34F00F22D8366000D81B95 /* User.swift */,
 				5E34F00D22D8357C00D81B95 /* Mobile.swift */,
 				5E34F00922D8355900D81B95 /* Hydro.swift */,
+				5E3281E322D947CC00F7FF7A /* Users.plist */,
 				5E3281DD22D935FD00F7FF7A /* Utility.swift */,
 				5E34F00722D8354B00D81B95 /* Customer.swift */,
 				5E34F00522D8353200D81B95 /* Bill.swift */,
@@ -91,7 +95,6 @@
 				5E33CC6222D7F13300A311EF /* LaunchScreen.storyboard */,
 				5E33CC6522D7F13300A311EF /* Info.plist */,
 				5E33CC6B22D7F34D00A311EF /* Parag_Launch_Screen.storyboard */,
-				5E33CC7222D800F100A311EF /* Userinfo.plist */,
 				5ED0AA3022D80D1000B41EA7 /* ShowbillViewController.swift */,
 			);
 			path = C0752439_MidTerm_MAD3115S2019;
@@ -156,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E33CC6422D7F13300A311EF /* LaunchScreen.storyboard in Resources */,
-				5E33CC7322D800F100A311EF /* Userinfo.plist in Resources */,
+				5E3281E422D947CC00F7FF7A /* Users.plist in Resources */,
 				5E33CC6C22D7F34D00A311EF /* Parag_Launch_Screen.storyboard in Resources */,
 				5E33CC6122D7F13300A311EF /* Assets.xcassets in Resources */,
 				5E33CC5F22D7F13200A311EF /* Main.storyboard in Resources */,
@@ -180,6 +183,7 @@
 				5E34F00822D8354B00D81B95 /* Customer.swift in Sources */,
 				5E3281DE22D935FD00F7FF7A /* Utility.swift in Sources */,
 				5E34F01022D8366000D81B95 /* User.swift in Sources */,
+				5E3281E222D941E100F7FF7A /* BillListTableViewController.swift in Sources */,
 				5E33CC5A22D7F13200A311EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -38,13 +38,13 @@ class ViewController: UIViewController {
                                 
                                 if isValidUser(email: email, password: password) {
                                     
-                                    showAlert(msg: "Login Successful")
+                                    //showAlert(msg: "Login Successful")
                                     //setRememberMe()
                                     
                                     //let storyboard = UIStoryboard(name: "Main", bundle: nil)
                                     //let dashboardVC = storyboard.instantiateViewController(withIdentifier: "homeVC") as! CustomersListViewController
                                     
-                                    //self.navigationController?.pushViewController(dashboardVC, animated: true)
+                                   // self.navigationController?.pushViewController(dashboardVC, animated: true)
                                     
                                     
                                 }else{
@@ -68,10 +68,10 @@ class ViewController: UIViewController {
     
     
     func getCustomersFromPlist(){
-        let plist = Bundle.main.path(forResource: "Userinfo", ofType: "plist")
+        let plist = Bundle.main.path(forResource: "Users", ofType: "plist")
         if let dict = NSMutableDictionary(contentsOfFile: plist!){
             print(dict)
-            print(dict["Users"])
+            print(dict["Users"] as Any)
             if let customersDict = dict["Users"] as? [[String:Any]]
             {
                 for customer in customersDict {

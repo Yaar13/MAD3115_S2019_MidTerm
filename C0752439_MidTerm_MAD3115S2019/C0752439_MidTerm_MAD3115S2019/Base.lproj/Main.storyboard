@@ -91,9 +91,12 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J6-Fv-c2Z">
-                                            <rect key="frame" x="20" y="3" width="34" height="30"/>
+                                            <rect key="frame" x="13" y="3" width="48" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Back"/>
+                                            <state key="normal" title="Logout"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="P3j-Wm-Fhe"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
